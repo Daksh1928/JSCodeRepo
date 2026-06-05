@@ -11,7 +11,17 @@
 //  let negvalue = -value;
 //  console.log(negvalue**negvalue);
 
- let str1 = "hello";
- let str2 = " Devanshu Rana";
- let str3 = str1+str2;
- console.log(str3);
+let str1 = "hello";
+let str2 = " Devanshu Rana";
+let str3 = str1 + str2;
+console.log(str3);
+console.log(str1 + " " + str2);
+
+let num1 = 3;
+let num2 = 4;
+console.log(num1 + num2);
+console.log(num1 + " " + num2);
+const name = "Devanshu";
+const age = 18;
+console.log(name + " is " + age + " years old.");
+
