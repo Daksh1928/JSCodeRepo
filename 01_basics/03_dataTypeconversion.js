@@ -24,4 +24,7 @@ console.log(num1 + " " + num2);
 const name = "Devanshu";
 const age = 18;
 console.log(name + " is " + age + " years old.");
+console.log(1 + 2 + "2");
+console.log("1" + 2 + 3);
 
+console.log(2 + 3 * 4 / 5);
