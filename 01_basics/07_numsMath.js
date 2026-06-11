@@ -26,3 +26,4 @@ console.log(Math.PI.toFixed(3));
 console.log(Math.E.toFixed(2));
 const name = "Devanshu Rana";
 console.log(`My name is ${name} I had completed Math and number in JAVASCRIPT BASICS on 11/06/2026`);
+

@@ -20,6 +20,18 @@ let myTimeStamp = Date.now();
 console.log(Math.floor(Date.now() / 1000));
 let newDate = new Date();
 
-newDate.toLocaleStirng('default',{
+newDate.toLocaleStirng('default', {
     weekday: "long",
 })
+console.log(newDate.toLocaleString('default', {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+}));
+
+const name = "Devanshu Rana";
+console.log(`My name is ${name} I had completed Date in JAVASCRIPT BASICS on 11/06/2026`);
